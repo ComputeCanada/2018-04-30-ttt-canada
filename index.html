@@ -97,12 +97,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 -->
 {% if page.latlng %}
 <p id="where">
-  <strong>Where:</strong>
-  {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <strong>Where: </strong>
+  This is a live, online course.
 </p>
 {% endif %}
 
@@ -133,12 +129,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
-  The workshop organisers have checked that:
 </p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
+
 <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
